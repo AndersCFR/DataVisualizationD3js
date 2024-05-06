@@ -1,0 +1,13 @@
+body {
+    background-color: #f0f0f0; /* Color de fondo general */
+    font-family: Arial, sans-serif;
+}
+
+#dashboard-container {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff; /* Color de fondo del dashboard */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(56, 52, 52, 0.1);
+}
