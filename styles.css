@@ -4,10 +4,27 @@ body {
 }
 
 #dashboard-container {
-    width: 800px;
+    width: 90%; /* Ancho del 90% del contenedor */
+    max-width: 1400px; /* Ancho máximo de 1400px */
     margin: 0 auto;
     padding: 20px;
     background-color: #ffffff; /* Color de fondo del dashboard */
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(56, 52, 52, 0.1);
 }
+#chart-container, #new-chart-container, .bar-chart-container {
+    display: inline-block;
+    vertical-align: top; /* Alinear los contenedores en la parte superior */
+    margin-top: 10px;
+    margin-right: 25px; /* Espacio entre los contenedores */
+}
+
+
+h1 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
